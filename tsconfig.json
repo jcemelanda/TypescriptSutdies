@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
-    "sourceMap": true
+    "sourceMap": true,
+    "module": "amd",
+    // "target": "es6"
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "files": [
-    "closures/019_closures.ts"
+    "ObjectOriented/030_decorators_intro.ts"
   ]
 }
